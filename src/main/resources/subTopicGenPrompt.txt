@@ -1,0 +1,47 @@
+###################################################
+#
+#   This file is used to tell the LLM how to generate content for the sub-topics
+#
+#   You can make changes, but make sure the instructions still contain the following variables:
+#   ${topic},${subTopics} and ${currentSubTopic},
+#   and also define the format of the response.
+#
+###################################################
+
+
+Please help me with the content for a presentation about the following topic:
+${topic}
+
+The presentation will have the following sub-topics:
+${subTopics}
+
+However, for now let's just focus on this sub-topic:
+${currentSubTopic}
+
+Please generate content for the slides for this subtopic. Only give me the text that should be on the slides (Key points, a few sentences, etc.), nothing else. Not less than 3 slides and not more than 7.
+
+And strictly follow this format:
+
+--------------------------
+
+Slide [slide number]
+### Title for the slide
+Content for the slide
+
+--------------------------
+
+Slide [slide number]
+### Title for the slide
+Content for the slide
+
+--------------------------
+
+Slide [slide number]
+### Title for the slide
+Content for the slide
+
+--------------------------
+
+... and so on.
+
+And use markdown to format and structure the text.

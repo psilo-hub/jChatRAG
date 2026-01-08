@@ -1,0 +1,17 @@
+###################################################
+#
+#   This file is used to tell the LLM how to generate a list of sub-topics
+#
+#   You can make changes, but make sure the instructions still contain ${topic} 
+#   and also define the format of the response.
+#
+###################################################
+
+Please suggest sub-topics for a presentation about the following topic:
+${topic}
+
+It should be at least three sub-topics, but not more than eight. Please use one line for each sub-topic suggestion and follow the following format:
+
+[sub-topic title] : [sub-topic description]
+
+reply only with the sub-topic list, nothing else

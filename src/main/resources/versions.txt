@@ -1,0 +1,2 @@
+#date	version	what's new	jar hash	release url
+2024-12-05	v0.01α	license test added

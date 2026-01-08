@@ -14,23 +14,23 @@ The app connects to Ollama and uses it's REST API for chat completion via a loca
 
 ### Activation
 
-![activation](picsForReadme/activation.png)
+![activation](picsForReadme/activation.jpg)
 
 On the first start (or when the activation is expired) the app will first ask for an activation code. A key generator can be found [here](https://github.com/psilo-hub/jChatRagActivator).
 
 ### Chat
 
-![Chat](picsForReadme/chat.png)
+![Chat](picsForReadme/chat.jpg)
 
 The chat panel allows to load and continue an old chat or start a new one. When starting a new one you first have to select a LLM.
 
-![Chat](picsForReadme/chat2.png)
+![Chat](picsForReadme/chat2.jpg)
 
 ### Tools
 
-![Tools](picsForReadme/tools.png)
+![Tools](picsForReadme/tools.jpg)
 
-![SlideGen](picsForReadme/slideGen.png)
+![SlideGen](picsForReadme/slideGen.jpg)
 
 The only tool that's working is the slide generator which generates slides for presentations and saves the result in text and html files. Select the LLM to use, type the topic into the text area for it, choose a mode and let the LLM generate content.
 
@@ -44,6 +44,6 @@ The only tool that's working is the slide generator which generates slides for p
  
 ### Settings
 
-![Settings](picsForReadme/settings.png)
+![Settings](picsForReadme/settings.jpg)
 
 Here you can switch between dark and light theme, configure where Ollama is running and define a timeout for responses.

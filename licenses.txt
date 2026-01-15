@@ -1,0 +1,24 @@
+The license will be decoded via rsa and should then have the following format:
+
+yyMMdd%[SALT 5 CHARS]
+
+That's 12 characters each 8 bits
+
+96 bits to en-/decode
+
+Using the following key
+
+
+
+p   = 129957138602491
+q   = 202160236920403
+N   = 26272165929377230989024523873
+phi = 26272165929376898871649000980
+e   = 1238341399
+d   = 13547015897714979165557135959
+
+
+d and N will be used in the app to check the license
+
+e and N are used to create activation codes
+

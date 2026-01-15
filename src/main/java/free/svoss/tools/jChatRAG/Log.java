@@ -1,6 +1,6 @@
 package free.svoss.tools.jChatRAG;
 
-import free.svoss.tools.Ansi;
+import free.svoss.tools.jChatRAG.Ansi;
 
 public class Log {
     private static Level globalLogLevel=Level.DEBUG;
